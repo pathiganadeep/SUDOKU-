@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUDOKU SOLVER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>SUDOKU SOLVER</h1>
+    <div id="message">Enter the input....</div>
+    <div class="game">
+        <div class="container">
+            <div class="row">
+                <div><input type="text" maxlength="1" class="box g1" ></div>
+                <div><input type="text" maxlength="1" class="box g1" ></div>
+                <div><input type="text" maxlength="1" class="box g1" ></div>
+                <div><input type="text" maxlength="1" class="box g2" ></div>
+                <div><input type="text" maxlength="1" class="box g2" ></div>
+                <div><input type="text" maxlength="1" class="box g2" ></div>
+                <div><input type="text" maxlength="1" class="box g3" ></div>
+                <div><input type="text" maxlength="1" class="box g3" ></div>
+                <div><input type="text" maxlength="1" class="box g3" ></div>
+            </div>
+            <div class="row">
+                <div><input type="text" maxlength="1" class="box g1" ></div>
+                <div><input type="text" maxlength="1" class="box g1" ></div>
+                <div><input type="text" maxlength="1" class="box g1" ></div>
+                <div><input type="text" maxlength="1" class="box g2" ></div>
+                <div><input type="text" maxlength="1" class="box g2" ></div>
+                <div><input type="text" maxlength="1" class="box g2" ></div>
+                <div><input type="text" maxlength="1" class="box g3" ></div>
+                <div><input type="text" maxlength="1" class="box g3" ></div>
+                <div><input type="text" maxlength="1" class="box g3" ></div>
+            </div>
+            <div class="row">
+                <div><input type="text" maxlength="1" class="box g1" ></div>
+                <div><input type="text" maxlength="1" class="box g1" ></div>
+                <div><input type="text" maxlength="1" class="box g1" ></div>
+                <div><input type="text" maxlength="1" class="box g2" ></div>
+                <div><input type="text" maxlength="1" class="box g2" ></div>
+                <div><input type="text" maxlength="1" class="box g2" ></div>
+                <div><input type="text" maxlength="1" class="box g3" ></div>
+                <div><input type="text" maxlength="1" class="box g3" ></div>
+                <div><input type="text" maxlength="1" class="box g3" ></div>
+            </div>
+            
+    
+            <div class="row">
+                <div><input type="text" maxlength="1" class="box g4" ></div>
+                <div><input type="text" maxlength="1" class="box g4" ></div>
+                <div><input type="text" maxlength="1" class="box g4" ></div>
+                <div><input type="text" maxlength="1" class="box g5" ></div>
+                <div><input type="text" maxlength="1" class="box g5" ></div>
+                <div><input type="text" maxlength="1" class="box g5" ></div>
+                <div><input type="text" maxlength="1" class="box g6" ></div>
+                <div><input type="text" maxlength="1" class="box g6" ></div>
+                <div><input type="text" maxlength="1" class="box g6" ></div>
+            </div>
+            <div class="row">
+                <div><input type="text" maxlength="1" class="box g4" ></div>
+                <div><input type="text" maxlength="1" class="box g4" ></div>
+                <div><input type="text" maxlength="1" class="box g4" ></div>
+                <div><input type="text" maxlength="1" class="box g5" ></div>
+                <div><input type="text" maxlength="1" class="box g5" ></div>
+                <div><input type="text" maxlength="1" class="box g5" ></div>
+                <div><input type="text" maxlength="1" class="box g6" ></div>
+                <div><input type="text" maxlength="1" class="box g6" ></div>
+                <div><input type="text" maxlength="1" class="box g6" ></div>
+            </div>
+            <div class="row">
+                <div><input type="text" maxlength="1" class="box g4" ></div>
+                <div><input type="text" maxlength="1" class="box g4" ></div>
+                <div><input type="text" maxlength="1" class="box g4" ></div>
+                <div><input type="text" maxlength="1" class="box g5" ></div>
+                <div><input type="text" maxlength="1" class="box g5" ></div>
+                <div><input type="text" maxlength="1" class="box g5" ></div>
+                <div><input type="text" maxlength="1" class="box g6" ></div>
+                <div><input type="text" maxlength="1" class="box g6" ></div>
+                <div><input type="text" maxlength="1" class="box g6" ></div>
+            </div>
+            
+    
+            <div class="row">
+                <div><input type="text" maxlength="1" class="box g7" ></div>
+                <div><input type="text" maxlength="1" class="box g7" ></div>
+                <div><input type="text" maxlength="1" class="box g7" ></div>
+                <div><input type="text" maxlength="1" class="box g8" ></div>
+                <div><input type="text" maxlength="1" class="box g8" ></div>
+                <div><input type="text" maxlength="1" class="box g8" ></div>
+                <div><input type="text" maxlength="1" class="box g9" ></div>
+                <div><input type="text" maxlength="1" class="box g9" ></div>
+                <div><input type="text" maxlength="1" class="box g9" ></div>
+            </div>
+            <div class="row">
+                <div><input type="text" maxlength="1" class="box g7" ></div>
+                <div><input type="text" maxlength="1" class="box g7" ></div>
+                <div><input type="text" maxlength="1" class="box g7" ></div>
+                <div><input type="text" maxlength="1" class="box g8" ></div>
+                <div><input type="text" maxlength="1" class="box g8" ></div>
+                <div><input type="text" maxlength="1" class="box g8" ></div>
+                <div><input type="text" maxlength="1" class="box g9" ></div>
+                <div><input type="text" maxlength="1" class="box g9" ></div>
+                <div><input type="text" maxlength="1" class="box g9" ></div>
+            </div>
+            <div class="row">
+                <div><input type="text" maxlength="1" class="box g7" ></div>
+                <div><input type="text" maxlength="1" class="box g7" ></div>
+                <div><input type="text" maxlength="1" class="box g7" ></div>
+                <div><input type="text" maxlength="1" class="box g8" ></div>
+                <div><input type="text" maxlength="1" class="box g8" ></div>
+                <div><input type="text" maxlength="1" class="box g8" ></div>
+                <div><input type="text" maxlength="1" class="box g9" ></div>
+                <div><input type="text" maxlength="1" class="box g9" ></div>
+                <div><input type="text" maxlength="1" class="box g9" ></div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="btn">
+        <button id="solve">Solve</button>
+        <button id="reset-btn">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFF0; /* Main background */
+    text-align: center;
+    margin: 0; /* Remove any default margins */
+    height: 100vh; /* Ensure the body takes full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 85vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 90vmin;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    height: 9vmin;
+    width: 90vmin;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    
+    
+}
+
+.box{
+    height: 7vmin;
+    width: 7vmin;
+    text-align: center;
+    border: none;
+}
+
+
+#solve {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: whitesmoke;
+    margin-right: 10vmin;
+}
+
+#reset-btn{
+    padding:1rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.solution {
+    color: rgb(10, 14, 203); /* Different text color for solved cells */
+    font-weight: bold; /* Bold font for better visibility */
+}
+
+.g1{
+    background-color: #C9EAFB;
+}
+
+.g2{
+    background-color: #F4CAC3;
+}
+
+.g3{
+    background-color: #C9EAFB;
+}
+
+.g4{
+    background-color: #F4CAC3;
+}
+
+.g5{
+    background-color: #E3DCE5;
+}
+
+.g6{
+    background-color: #F4CAC3;
+}
+
+.g7{
+    background-color: #C9EAFB;
+}
+.g8{
+    background-color: #F4CAC3;
+}
+.g9{
+    background-color: #C9EAFB;
+}
